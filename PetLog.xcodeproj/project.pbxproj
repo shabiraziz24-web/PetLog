@@ -54,6 +54,7 @@
 		A10001001A000045 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000045 /* PetProfileView.swift */; };
 		A10001001A000046 /* PetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000046 /* PetSetupView.swift */; };
 		A10001001A000047 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000047 /* RemindersListView.swift */; };
+		A10001001A000048 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000048 /* AddReminderView.swift */; };
 		A10001001A000048 /* FamilySharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000048 /* FamilySharingView.swift */; };
 		A10001001A000049 /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000049 /* MoreTabView.swift */; };
 		A10001001A000050 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000050 /* SettingsView.swift */; };
@@ -109,6 +110,7 @@
 		A10001001F000045 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
 		A10001001F000046 /* PetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSetupView.swift; sourceTree = "<group>"; };
 		A10001001F000047 /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
+		A10001001F000048 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		A10001001F000048 /* FamilySharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySharingView.swift; sourceTree = "<group>"; };
 		A10001001F000049 /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
 		A10001001F000050 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				A10001001F000047 /* RemindersListView.swift */,
+				A10001001F000048 /* AddReminderView.swift */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				A10001001A000045 /* PetProfileView.swift in Sources */,
 				A10001001A000046 /* PetSetupView.swift in Sources */,
 				A10001001A000047 /* RemindersListView.swift in Sources */,
+				A10001001A000048 /* AddReminderView.swift in Sources */,
 				A10001001A000048 /* FamilySharingView.swift in Sources */,
 				A10001001A000049 /* MoreTabView.swift in Sources */,
 				A10001001A000050 /* SettingsView.swift in Sources */,
