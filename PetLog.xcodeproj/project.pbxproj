@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001001A000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000001 /* MainTabView.swift */; };
+		A10001001A000002 /* PetLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000002 /* PetLogApp.swift */; };
+		A10001001A000003 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000003 /* Expense.swift */; };
+		A10001001A000004 /* FeedingLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000004 /* FeedingLog.swift */; };
+		A10001001A000005 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000005 /* JournalEntry.swift */; };
+		A10001001A000006 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000006 /* Medication.swift */; };
+		A10001001A000007 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000007 /* Pet.swift */; };
+		A10001001A000008 /* PetActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000008 /* PetActivity.swift */; };
+		A10001001A000009 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000009 /* Reminder.swift */; };
+		A10001001A000010 /* Vaccination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000010 /* Vaccination.swift */; };
+		A10001001A000011 /* VetVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000011 /* VetVisit.swift */; };
+		A10001001A000012 /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000012 /* WeightEntry.swift */; };
+		A10001001A000013 /* DataExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000013 /* DataExportService.swift */; };
+		A10001001A000014 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000014 /* LocationService.swift */; };
+		A10001001A000015 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000015 /* NotificationService.swift */; };
+		A10001001A000016 /* StoreKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000016 /* StoreKitService.swift */; };
+		A10001001A000017 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000017 /* Constants.swift */; };
+		A10001001A000018 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000018 /* Extensions.swift */; };
+		A10001001A000019 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000019 /* Theme.swift */; };
+		A10001001A000020 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000020 /* ActivityViewModel.swift */; };
+		A10001001A000021 /* HealthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000021 /* HealthViewModel.swift */; };
+		A10001001A000022 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000022 /* HomeViewModel.swift */; };
+		A10001001A000023 /* PetSetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000023 /* PetSetupViewModel.swift */; };
+		A10001001A000024 /* ActivityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000024 /* ActivityTabView.swift */; };
+		A10001001A000025 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000025 /* AddActivityView.swift */; };
+		A10001001A000026 /* AddFeedingLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000026 /* AddFeedingLogView.swift */; };
+		A10001001A000027 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000027 /* EmptyStateView.swift */; };
+		A10001001A000028 /* PetAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000028 /* PetAvatarView.swift */; };
+		A10001001A000029 /* QuickAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000029 /* QuickAddSheet.swift */; };
+		A10001001A000030 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000030 /* StatCard.swift */; };
+		A10001001A000031 /* EmergencyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000031 /* EmergencyCardView.swift */; };
+		A10001001A000032 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000032 /* EmergencyView.swift */; };
+		A10001001A000033 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000033 /* AddExpenseView.swift */; };
+		A10001001A000034 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000034 /* ExpensesView.swift */; };
+		A10001001A000035 /* AddMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000035 /* AddMedicationView.swift */; };
+		A10001001A000036 /* AddVaccinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000036 /* AddVaccinationView.swift */; };
+		A10001001A000037 /* AddVetVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000037 /* AddVetVisitView.swift */; };
+		A10001001A000038 /* AddWeightEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000038 /* AddWeightEntryView.swift */; };
+		A10001001A000039 /* HealthTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000039 /* HealthTabView.swift */; };
+		A10001001A000040 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000040 /* HomeView.swift */; };
+		A10001001A000041 /* AddJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000041 /* AddJournalEntryView.swift */; };
+		A10001001A000042 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000042 /* JournalListView.swift */; };
+		A10001001A000043 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000043 /* OnboardingView.swift */; };
+		A10001001A000044 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000044 /* PaywallView.swift */; };
+		A10001001A000045 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000045 /* PetProfileView.swift */; };
+		A10001001A000046 /* PetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000046 /* PetSetupView.swift */; };
+		A10001001A000047 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000047 /* RemindersListView.swift */; };
+		A10001001A000048 /* FamilySharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000048 /* FamilySharingView.swift */; };
+		A10001001A000049 /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000049 /* MoreTabView.swift */; };
+		A10001001A000050 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000050 /* SettingsView.swift */; };
+		A10001001A000090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001001F000090 /* Assets.xcassets */; };
+		A10001001A000091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001001F000091 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10001001F000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A10001001F000002 /* PetLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLogApp.swift; sourceTree = "<group>"; };
+		A10001001F000003 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		A10001001F000004 /* FeedingLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingLog.swift; sourceTree = "<group>"; };
+		A10001001F000005 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		A10001001F000006 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		A10001001F000007 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		A10001001F000008 /* PetActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActivity.swift; sourceTree = "<group>"; };
+		A10001001F000009 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		A10001001F000010 /* Vaccination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaccination.swift; sourceTree = "<group>"; };
+		A10001001F000011 /* VetVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetVisit.swift; sourceTree = "<group>"; };
+		A10001001F000012 /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
+		A10001001F000013 /* DataExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportService.swift; sourceTree = "<group>"; };
+		A10001001F000014 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		A10001001F000015 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A10001001F000016 /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
+		A10001001F000017 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A10001001F000018 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A10001001F000019 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A10001001F000020 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		A10001001F000021 /* HealthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewModel.swift; sourceTree = "<group>"; };
+		A10001001F000022 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A10001001F000023 /* PetSetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSetupViewModel.swift; sourceTree = "<group>"; };
+		A10001001F000024 /* ActivityTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTabView.swift; sourceTree = "<group>"; };
+		A10001001F000025 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		A10001001F000026 /* AddFeedingLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedingLogView.swift; sourceTree = "<group>"; };
+		A10001001F000027 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		A10001001F000028 /* PetAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAvatarView.swift; sourceTree = "<group>"; };
+		A10001001F000029 /* QuickAddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddSheet.swift; sourceTree = "<group>"; };
+		A10001001F000030 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		A10001001F000031 /* EmergencyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyCardView.swift; sourceTree = "<group>"; };
+		A10001001F000032 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
+		A10001001F000033 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		A10001001F000034 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		A10001001F000035 /* AddMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationView.swift; sourceTree = "<group>"; };
+		A10001001F000036 /* AddVaccinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVaccinationView.swift; sourceTree = "<group>"; };
+		A10001001F000037 /* AddVetVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVetVisitView.swift; sourceTree = "<group>"; };
+		A10001001F000038 /* AddWeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightEntryView.swift; sourceTree = "<group>"; };
+		A10001001F000039 /* HealthTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTabView.swift; sourceTree = "<group>"; };
+		A10001001F000040 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A10001001F000041 /* AddJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalEntryView.swift; sourceTree = "<group>"; };
+		A10001001F000042 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		A10001001F000043 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A10001001F000044 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A10001001F000045 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
+		A10001001F000046 /* PetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSetupView.swift; sourceTree = "<group>"; };
+		A10001001F000047 /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
+		A10001001F000048 /* FamilySharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySharingView.swift; sourceTree = "<group>"; };
+		A10001001F000049 /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
+		A10001001F000050 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10001001F000090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10001001F000091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A10001001F000092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10001001F000099 /* PetLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10001001E000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10001001C000000 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001C000001 /* PetLog */,
+				A10001001C000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10001001C000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000099 /* PetLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10001001C000001 /* PetLog */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001C000010 /* App */,
+				A10001001C000011 /* Models */,
+				A10001001C000012 /* Services */,
+				A10001001C000013 /* Utilities */,
+				A10001001C000014 /* ViewModels */,
+				A10001001C000015 /* Views */,
+				A10001001F000090 /* Assets.xcassets */,
+				A10001001F000092 /* Info.plist */,
+				A10001001C000098 /* Preview Content */,
+			);
+			path = PetLog;
+			sourceTree = "<group>";
+		};
+		A10001001C000010 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000001 /* MainTabView.swift */,
+				A10001001F000002 /* PetLogApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10001001C000011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000003 /* Expense.swift */,
+				A10001001F000004 /* FeedingLog.swift */,
+				A10001001F000005 /* JournalEntry.swift */,
+				A10001001F000006 /* Medication.swift */,
+				A10001001F000007 /* Pet.swift */,
+				A10001001F000008 /* PetActivity.swift */,
+				A10001001F000009 /* Reminder.swift */,
+				A10001001F000010 /* Vaccination.swift */,
+				A10001001F000011 /* VetVisit.swift */,
+				A10001001F000012 /* WeightEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10001001C000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000013 /* DataExportService.swift */,
+				A10001001F000014 /* LocationService.swift */,
+				A10001001F000015 /* NotificationService.swift */,
+				A10001001F000016 /* StoreKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A10001001C000013 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000017 /* Constants.swift */,
+				A10001001F000018 /* Extensions.swift */,
+				A10001001F000019 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A10001001C000014 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000020 /* ActivityViewModel.swift */,
+				A10001001F000021 /* HealthViewModel.swift */,
+				A10001001F000022 /* HomeViewModel.swift */,
+				A10001001F000023 /* PetSetupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A10001001C000015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001C000020 /* Activity */,
+				A10001001C000021 /* Common */,
+				A10001001C000022 /* Emergency */,
+				A10001001C000023 /* Expenses */,
+				A10001001C000024 /* Health */,
+				A10001001C000025 /* Home */,
+				A10001001C000026 /* Journal */,
+				A10001001C000027 /* Onboarding */,
+				A10001001C000028 /* Paywall */,
+				A10001001C000029 /* Pets */,
+				A10001001C000030 /* Reminders */,
+				A10001001C000031 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10001001C000020 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000024 /* ActivityTabView.swift */,
+				A10001001F000025 /* AddActivityView.swift */,
+				A10001001F000026 /* AddFeedingLogView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		A10001001C000021 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000027 /* EmptyStateView.swift */,
+				A10001001F000028 /* PetAvatarView.swift */,
+				A10001001F000029 /* QuickAddSheet.swift */,
+				A10001001F000030 /* StatCard.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A10001001C000022 /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000031 /* EmergencyCardView.swift */,
+				A10001001F000032 /* EmergencyView.swift */,
+			);
+			path = Emergency;
+			sourceTree = "<group>";
+		};
+		A10001001C000023 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000033 /* AddExpenseView.swift */,
+				A10001001F000034 /* ExpensesView.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		A10001001C000024 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000035 /* AddMedicationView.swift */,
+				A10001001F000036 /* AddVaccinationView.swift */,
+				A10001001F000037 /* AddVetVisitView.swift */,
+				A10001001F000038 /* AddWeightEntryView.swift */,
+				A10001001F000039 /* HealthTabView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		A10001001C000025 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000040 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A10001001C000026 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000041 /* AddJournalEntryView.swift */,
+				A10001001F000042 /* JournalListView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		A10001001C000027 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000043 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A10001001C000028 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000044 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		A10001001C000029 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000045 /* PetProfileView.swift */,
+				A10001001F000046 /* PetSetupView.swift */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		A10001001C000030 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000047 /* RemindersListView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		A10001001C000031 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000048 /* FamilySharingView.swift */,
+				A10001001F000049 /* MoreTabView.swift */,
+				A10001001F000050 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A10001001C000098 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A10001001F000091 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10001001D000001 /* PetLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10001001B000003 /* Build configuration list for PBXNativeTarget "PetLog" */;
+			buildPhases = (
+				A10001001E000002 /* Sources */,
+				A10001001E000001 /* Frameworks */,
+				A10001001E000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetLog;
+			productName = PetLog;
+			productReference = A10001001F000099 /* PetLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10001001D000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A10001001D000001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A10001001B000001 /* Build configuration list for PBXProject "PetLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10001001C000000 /* Root */;
+			productRefGroup = A10001001C000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10001001D000001 /* PetLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10001001E000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001001A000091 /* Preview Assets.xcassets in Resources */,
+				A10001001A000090 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10001001E000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001001A000001 /* MainTabView.swift in Sources */,
+				A10001001A000002 /* PetLogApp.swift in Sources */,
+				A10001001A000003 /* Expense.swift in Sources */,
+				A10001001A000004 /* FeedingLog.swift in Sources */,
+				A10001001A000005 /* JournalEntry.swift in Sources */,
+				A10001001A000006 /* Medication.swift in Sources */,
+				A10001001A000007 /* Pet.swift in Sources */,
+				A10001001A000008 /* PetActivity.swift in Sources */,
+				A10001001A000009 /* Reminder.swift in Sources */,
+				A10001001A000010 /* Vaccination.swift in Sources */,
+				A10001001A000011 /* VetVisit.swift in Sources */,
+				A10001001A000012 /* WeightEntry.swift in Sources */,
+				A10001001A000013 /* DataExportService.swift in Sources */,
+				A10001001A000014 /* LocationService.swift in Sources */,
+				A10001001A000015 /* NotificationService.swift in Sources */,
+				A10001001A000016 /* StoreKitService.swift in Sources */,
+				A10001001A000017 /* Constants.swift in Sources */,
+				A10001001A000018 /* Extensions.swift in Sources */,
+				A10001001A000019 /* Theme.swift in Sources */,
+				A10001001A000020 /* ActivityViewModel.swift in Sources */,
+				A10001001A000021 /* HealthViewModel.swift in Sources */,
+				A10001001A000022 /* HomeViewModel.swift in Sources */,
+				A10001001A000023 /* PetSetupViewModel.swift in Sources */,
+				A10001001A000024 /* ActivityTabView.swift in Sources */,
+				A10001001A000025 /* AddActivityView.swift in Sources */,
+				A10001001A000026 /* AddFeedingLogView.swift in Sources */,
+				A10001001A000027 /* EmptyStateView.swift in Sources */,
+				A10001001A000028 /* PetAvatarView.swift in Sources */,
+				A10001001A000029 /* QuickAddSheet.swift in Sources */,
+				A10001001A000030 /* StatCard.swift in Sources */,
+				A10001001A000031 /* EmergencyCardView.swift in Sources */,
+				A10001001A000032 /* EmergencyView.swift in Sources */,
+				A10001001A000033 /* AddExpenseView.swift in Sources */,
+				A10001001A000034 /* ExpensesView.swift in Sources */,
+				A10001001A000035 /* AddMedicationView.swift in Sources */,
+				A10001001A000036 /* AddVaccinationView.swift in Sources */,
+				A10001001A000037 /* AddVetVisitView.swift in Sources */,
+				A10001001A000038 /* AddWeightEntryView.swift in Sources */,
+				A10001001A000039 /* HealthTabView.swift in Sources */,
+				A10001001A000040 /* HomeView.swift in Sources */,
+				A10001001A000041 /* AddJournalEntryView.swift in Sources */,
+				A10001001A000042 /* JournalListView.swift in Sources */,
+				A10001001A000043 /* OnboardingView.swift in Sources */,
+				A10001001A000044 /* PaywallView.swift in Sources */,
+				A10001001A000045 /* PetProfileView.swift in Sources */,
+				A10001001A000046 /* PetSetupView.swift in Sources */,
+				A10001001A000047 /* RemindersListView.swift in Sources */,
+				A10001001A000048 /* FamilySharingView.swift in Sources */,
+				A10001001A000049 /* MoreTabView.swift in Sources */,
+				A10001001A000050 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10001001B000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10001001B000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10001001B000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetLog;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PetLog needs camera access to take photos of your pets for their profiles and journal entries.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "PetLog uses your location to find nearby veterinary clinics and track activity routes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PetLog needs permission to save exported emergency cards and reports to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PetLog needs photo library access to add existing photos to your pet's profile and journal.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petlog.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10001001B000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetLog;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PetLog needs camera access to take photos of your pets for their profiles and journal entries.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "PetLog uses your location to find nearby veterinary clinics and track activity routes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PetLog needs permission to save exported emergency cards and reports to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PetLog needs photo library access to add existing photos to your pet's profile and journal.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petlog.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10001001B000001 /* Build configuration list for PBXProject "PetLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10001001B000010 /* Debug */,
+				A10001001B000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10001001B000003 /* Build configuration list for PBXNativeTarget "PetLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10001001B000020 /* Debug */,
+				A10001001B000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A10001001D000000 /* Project object */;
+}
