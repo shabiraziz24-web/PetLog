@@ -45,7 +45,7 @@ struct HomeView: View {
                 }
             }
             .sheet(isPresented: $showingAddPet) {
-                PetSetupFlow()
+                PetSetupView()
             }
             .sheet(isPresented: $showingAddWeight) {
                 if let pet = viewModel.selectedPet {
