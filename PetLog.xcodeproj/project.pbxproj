@@ -54,18 +54,13 @@
 		A10001001A000045 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000045 /* PetProfileView.swift */; };
 		A10001001A000046 /* PetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000046 /* PetSetupView.swift */; };
 		A10001001A000047 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000047 /* RemindersListView.swift */; };
-		A10001001A000048 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000048 /* AddReminderView.swift */; };
-		A10001001A000048 /* FamilySharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000048 /* FamilySharingView.swift */; };
+		A10001001A000055 /* FamilySharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000055 /* FamilySharingView.swift */; };
 		A10001001A000049 /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000049 /* MoreTabView.swift */; };
 		A10001001A000050 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000050 /* SettingsView.swift */; };
 		A10001001A000051 /* PetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000051 /* PetPhoto.swift */; };
 		A10001001A000052 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000052 /* PhotoGalleryView.swift */; };
 		A10001001A000053 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000053 /* PhotoDetailView.swift */; };
 		A10001001A000054 /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000054 /* SharedDefaults.swift */; };
-		A10001001A000060 /* PetLogWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F000060 /* PetLogWidget.swift */; };
-		A10001001A000061 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10001001F000061 /* WidgetKit.framework */; };
-		A10001001A000062 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10001001F000062 /* SwiftUI.framework */; };
-		A10001001A000063 /* PetLogWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10001001F000069 /* PetLogWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A10001001A000090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001001F000090 /* Assets.xcassets */; };
 		A10001001A000091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001001F000091 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -118,18 +113,13 @@
 		A10001001F000045 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
 		A10001001F000046 /* PetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSetupView.swift; sourceTree = "<group>"; };
 		A10001001F000047 /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
-		A10001001F000048 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
-		A10001001F000048 /* FamilySharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySharingView.swift; sourceTree = "<group>"; };
+		A10001001F000055 /* FamilySharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilySharingView.swift; sourceTree = "<group>"; };
 		A10001001F000049 /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
 		A10001001F000050 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A10001001F000051 /* PetPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPhoto.swift; sourceTree = "<group>"; };
 		A10001001F000052 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		A10001001F000053 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 		A10001001F000054 /* SharedDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDefaults.swift; sourceTree = "<group>"; };
-		A10001001F000060 /* PetLogWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLogWidget.swift; sourceTree = "<group>"; };
-		A10001001F000061 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		A10001001F000062 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		A10001001F000069 /* PetLogWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PetLogWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10001001F000090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10001001F000091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A10001001F000092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,38 +134,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A10001001E000011 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10001001A000061 /* WidgetKit.framework in Frameworks */,
-				A10001001A000062 /* SwiftUI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A10001001E000020 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				A10001001A000063 /* PetLogWidgetExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXGroup section */
 		A10001001C000000 /* Root */ = {
 			isa = PBXGroup;
 			children = (
 				A10001001C000001 /* PetLog */,
-				A10001001C000040 /* PetLogWidget */,
-				A10001001C000041 /* Frameworks */,
 				A10001001C000099 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				A10001001F000099 /* PetLog.app */,
-				A10001001F000069 /* PetLogWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,7 +346,6 @@
 			isa = PBXGroup;
 			children = (
 				A10001001F000047 /* RemindersListView.swift */,
-				A10001001F000048 /* AddReminderView.swift */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -390,7 +353,7 @@
 		A10001001C000031 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				A10001001F000048 /* FamilySharingView.swift */,
+				A10001001F000055 /* FamilySharingView.swift */,
 				A10001001F000049 /* MoreTabView.swift */,
 				A10001001F000050 /* SettingsView.swift */,
 			);
@@ -404,23 +367,6 @@
 				A10001001F000053 /* PhotoDetailView.swift */,
 			);
 			path = Photos;
-			sourceTree = "<group>";
-		};
-		A10001001C000040 /* PetLogWidget */ = {
-			isa = PBXGroup;
-			children = (
-				A10001001F000060 /* PetLogWidget.swift */,
-			);
-			path = PetLogWidget;
-			sourceTree = "<group>";
-		};
-		A10001001C000041 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A10001001F000061 /* WidgetKit.framework */,
-				A10001001F000062 /* SwiftUI.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A10001001C000098 /* Preview Content */ = {
@@ -441,34 +387,15 @@
 				A10001001E000002 /* Sources */,
 				A10001001E000001 /* Frameworks */,
 				A10001001E000003 /* Resources */,
-				A10001001E000020 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A10001001D000011 /* PBXTargetDependency */,
 			);
 			name = PetLog;
 			productName = PetLog;
 			productReference = A10001001F000099 /* PetLog.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A10001001D000002 /* PetLogWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A10001001B000005 /* Build configuration list for PBXNativeTarget "PetLogWidgetExtension" */;
-			buildPhases = (
-				A10001001E000010 /* Sources */,
-				A10001001E000011 /* Frameworks */,
-				A10001001E000012 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PetLogWidgetExtension;
-			productName = PetLogWidgetExtension;
-			productReference = A10001001F000069 /* PetLogWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -481,9 +408,6 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					A10001001D000001 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					A10001001D000002 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -502,28 +426,9 @@
 			projectRoot = "";
 			targets = (
 				A10001001D000001 /* PetLog */,
-				A10001001D000002 /* PetLogWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXContainerItemProxy section */
-		A10001001D000010 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A10001001D000000 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A10001001D000002;
-			remoteInfo = PetLogWidgetExtension;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXTargetDependency section */
-		A10001001D000011 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A10001001D000002 /* PetLogWidgetExtension */;
-			targetProxy = A10001001D000010 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A10001001E000003 /* Resources */ = {
@@ -532,13 +437,6 @@
 			files = (
 				A10001001A000091 /* Preview Assets.xcassets in Resources */,
 				A10001001A000090 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10001001E000012 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,22 +494,13 @@
 				A10001001A000045 /* PetProfileView.swift in Sources */,
 				A10001001A000046 /* PetSetupView.swift in Sources */,
 				A10001001A000047 /* RemindersListView.swift in Sources */,
-				A10001001A000048 /* AddReminderView.swift in Sources */,
-				A10001001A000048 /* FamilySharingView.swift in Sources */,
+				A10001001A000055 /* FamilySharingView.swift in Sources */,
 				A10001001A000049 /* MoreTabView.swift in Sources */,
 				A10001001A000050 /* SettingsView.swift in Sources */,
 				A10001001A000051 /* PetPhoto.swift in Sources */,
 				A10001001A000052 /* PhotoGalleryView.swift in Sources */,
 				A10001001A000053 /* PhotoDetailView.swift in Sources */,
 				A10001001A000054 /* SharedDefaults.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A10001001E000010 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10001001A000060 /* PetLogWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,58 +702,6 @@
 			};
 			name = Release;
 		};
-		A10001001B000030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PetLogWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.petlog.app.widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A10001001B000031 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PetLogWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.petlog.app.widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -882,15 +719,6 @@
 			buildConfigurations = (
 				A10001001B000020 /* Debug */,
 				A10001001B000021 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A10001001B000005 /* Build configuration list for PBXNativeTarget "PetLogWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A10001001B000030 /* Debug */,
-				A10001001B000031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
