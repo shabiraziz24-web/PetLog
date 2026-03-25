@@ -16,7 +16,8 @@ struct PetLogApp: App {
             PetActivity.self,
             Expense.self,
             JournalEntry.self,
-            Reminder.self
+            Reminder.self,
+            PetPhoto.self
         ])
         let modelConfiguration = ModelConfiguration(
             schema: schema,

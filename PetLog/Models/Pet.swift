@@ -72,6 +72,7 @@ final class Pet {
     @Relationship(deleteRule: .cascade, inverse: \Expense.pet) var expenses: [Expense]
     @Relationship(deleteRule: .cascade, inverse: \JournalEntry.pet) var journalEntries: [JournalEntry]
     @Relationship(deleteRule: .cascade, inverse: \Reminder.pet) var reminders: [Reminder]
+    @Relationship(deleteRule: .cascade, inverse: \PetPhoto.pet) var photos: [PetPhoto]
 
     init(
         name: String = "",
@@ -115,6 +116,7 @@ final class Pet {
         self.expenses = []
         self.journalEntries = []
         self.reminders = []
+        self.photos = []
     }
 
     var age: String {
@@ -159,6 +161,10 @@ final class Pet {
         if last > prev + 0.5 { return .up }
         if last < prev - 0.5 { return .down }
         return .stable
+    }
+
+    var recentPhotos: [PetPhoto] {
+        photos.sorted { $0.date > $1.date }.prefix(4).map { $0 }
     }
 
     enum WeightTrend {

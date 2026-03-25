@@ -206,6 +206,62 @@ struct PetProfileView: View {
             }
             .cardStyle()
 
+            // Photos
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    SectionHeader(title: "Photos", icon: "photo.fill")
+                    Spacer()
+                    if !pet.photos.isEmpty {
+                        NavigationLink {
+                            PhotoGalleryView(pet: pet)
+                        } label: {
+                            Text("See All")
+                                .font(.caption.weight(.medium))
+                                .foregroundStyle(Theme.primaryColor)
+                        }
+                    }
+                }
+
+                if pet.recentPhotos.isEmpty {
+                    NavigationLink {
+                        PhotoGalleryView(pet: pet)
+                    } label: {
+                        HStack {
+                            Spacer()
+                            VStack(spacing: 8) {
+                                Image(systemName: "photo.on.rectangle.angled")
+                                    .font(.title2)
+                                    .foregroundStyle(Theme.primaryColor.opacity(0.5))
+                                Text("Add photos of \(pet.name)")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                            .padding(.vertical, 16)
+                            Spacer()
+                        }
+                    }
+                } else {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(pet.recentPhotos) { photo in
+                                if let uiImage = UIImage(data: photo.imageData) {
+                                    NavigationLink {
+                                        PhotoGalleryView(pet: pet)
+                                    } label: {
+                                        Image(uiImage: uiImage)
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 80, height: 80)
+                                            .clipShape(RoundedRectangle(cornerRadius: Theme.smallCornerRadius))
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .cardStyle()
+
             // Notes
             if !pet.notes.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
@@ -431,5 +487,5 @@ private struct EditField: View {
     NavigationStack {
         PetProfileView(pet: Pet(name: "Buddy", species: .dog, breed: "Golden Retriever", color: "Golden", microchipNumber: "123456789", allergies: ["Chicken"]))
     }
-    .modelContainer(for: Pet.self, inMemory: true)
+    .modelContainer(for: [Pet.self, PetPhoto.self], inMemory: true)
 }
